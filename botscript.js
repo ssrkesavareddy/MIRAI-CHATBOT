@@ -20,7 +20,7 @@ const createChatLi = (message, className) => {
 }
 function url(chatInput) {
     const userMessage = chatInput.trim().replace(/ /g, '-'); // Process the user input
-    const apiUrl = `http://3.110.184.51:8000/chat?input=${encodeURIComponent(userMessage)}`; // Construct the URL
+    const apiUrl = `https://ssrkesavareddy.github.io/MIRAI-CHATBOT/chat?input=${encodeURIComponent(userMessage)}`; // Construct the URL
 
     return fetch(apiUrl)
         .then(response => {
