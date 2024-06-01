@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import random
 import json
 import torch
@@ -64,7 +64,7 @@ def get_response(sentence):
 
 @app1.route('/')
 def home():
-    return "helloworld"
+    return render_template('index.html')
 
 @app1.route('/chat')
 def chat():
