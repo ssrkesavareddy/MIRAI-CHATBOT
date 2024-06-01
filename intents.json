@@ -1,0 +1,409 @@
+{
+    "intents": [
+      {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Greetings",
+          "Hi friend, any travel recommendations?"
+    ],
+    "responses": [
+      "Hey :-)",
+      "Hello, thanks for visiting",
+      "Hi there, what can I do for you?",
+      "Hi there, how can I help?",
+      "Greetings, fellow adventurer!",
+      "Salutations! Ready for a journey?",
+      "Hola amigo! Where to next?",
+      "Namaste! Planning a trip?",
+      "Yo! Looking for travel inspiration?",
+      "Hello wanderer! Need travel advice?",
+      "Hey traveler, ready to explore?",
+      "Good day! Seeking a travel adventure?",
+      "Hi friend! Let's talk travel!",
+      "Hey there! Want a tip for your journey?",
+      "Hello explorer! Where are we heading today?",
+      "Hi adventurer! Need a travel suggestion?",
+      "Hey there! Remember, life is short - travel often!",
+      "Hi friend! Did you hear about the travel-holic robot? It's always on a byte-sized adventure!",
+      "Good day! They say laughter is the best medicine, so let's cure any travel woes with a good joke!",
+      "Greetings, wayfarer! If life gives you lemons, squeeze them on your seafood by the beach!"
+    ]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "Bye",
+      "See you later",
+      "Goodbye",
+      "Farewell",
+      "Take care",
+      "Adios",
+      "Till we meet again",
+      "Safe travels",
+      "So long",
+      "Catch you later",
+      "Until next time"
+    ],
+    "responses": [
+      "See you later, thanks for visiting",
+      "Have a nice day",
+      "Bye! Come back again soon.",
+      "Farewell, wanderer!",
+      "Safe travels! See you soon.",
+      "Till we meet again, adventurer!",
+      "Adios amigo! Take care!",
+      "So long! Enjoy your journey.",
+      "Goodbye for now! Come back anytime.",
+      "Take care and have a great day!",
+      "Until next time! Bon voyage!",
+      "Farewell, friend! May your journey be as smooth as a well-planned itinerary!",
+      "Goodbye! Remember, every goodbye makes the next hello even sweeter!",
+      "Adios! Don't forget, the world is a book, and those who do not travel read only one page."
+    ]
+  },
+  {
+    "tag": "thanks",
+    "patterns": [
+      "Thanks",
+      "Thank you",
+      "That's helpful",
+      "Thank's a lot!",
+      "Appreciate it",
+      "You're awesome",
+      "Gracias",
+      "Thanks a million",
+      "Many thanks",
+      "You rock"
+    ],
+    "responses": [
+      "Happy to help!",
+      "Any time!",
+      "My pleasure",
+      "You're welcome!",
+      "Glad I could assist you",
+      "You're awesome too!",
+      "De nada! (You're welcome in Spanish)",
+      "Thanks a million for your kind words!",
+      "Many thanks! Let me know if you need more assistance.",
+      "You rock! If you have more questions, feel free to ask.",
+      "Thanks a bunch! You're making this chatbot's circuits glow with happiness!",
+      "Cheers! Remember, a 'thank you' is the best kind of currency."
+    ]
+  },
+  {
+    "tag": "joke",
+    "patterns": [
+      "Tell me a joke",
+      "Give me a laugh",
+      "I need some humor",
+      "Make me smile",
+      "Joke time",
+      "Tell me a joke",
+      "Give me a laugh",
+      "I need some humor",
+      "Make me smile",
+      "Joke time",
+      "Another joke",
+      "One more joke",
+      "more jokes",
+      "Got another joke?",
+      "Hit me with another joke",
+      "More jokes, please"
+    ],
+    "responses": [
+      "Why did the backpack apply for a passport? It wanted to go on a trip!",
+      "How does a penguin build its house? Igloos it together!",
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "What do you call fake spaghetti? An impasta!",
+      "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+      "Why did the scarecrow become a successful motivational speaker? Because he was outstanding in his field!",
+      "What did one ocean say to the other ocean? Nothing, they just waved!",
+      "Why don't skeletons fight each other? They don't have the guts!",
+      "How do you organize a space party? You planet!",
+      "What's a computer's favorite snack? Microchips!",
+      "Why did the coffee file a police report? It got mugged!"
+    ]
+  },
+      {
+    "tag": "time",
+    "patterns": ["time","date","current time","current date",
+      "What is the current time?",
+      "Can you tell me the time now?",
+      "What's the date today?",
+      "Tell me today's date.",
+      "What time is it?",
+      "Current date and time, please."
+    ],
+    "responses": [
+  
+      "Today's date is {current_date}. The current time is {current_time}.",
+      "The date today is {current_date}, and the time is {current_time}."
+    ]
+  },
+      {
+    "tag": "Contact details",
+    "patterns": [
+      "contact",
+      "mobile number",
+      "email",
+      "address",
+      "office address",
+      "customer support",
+      "customer care number",
+      "help",
+      "give me customer care detalis",
+      "give me customer support details",
+      "give me customer care details"
+    ],
+    "responses": [
+      "For inquiries, you can reach us via email, If your query is not resolved, please contact with our executive Email: gbrahmareddy1016@gmail.com or call us at +919392365565."
+    ]
+  },
+      {
+    "tag": "Travel Planning",
+    "patterns": [
+      "packages",
+      "solo travel package",
+      "duo travel package",
+      "group travel package",
+      "customized travel package"
+    ],
+    "responses": [
+      "We offer various travel packages to suit your preferences. Whether you're traveling solo, as a duo, or in a group, we have options for everyone. Additionally, we provide customized travel packages tailored to your specific needs and interests. Let us help you plan your perfect trip! For inquiries, you can reach us via Email: gbrahmareddy1016@gmail.com or call us at +919392365565."
+    ]
+  },
+      {
+      "tag" : "login",
+      "patterns" :[
+        "I'm having trouble logging in.",
+        "I can't log into my account.",
+  "Login isn't working for me.",
+  "Having issues with my login.",
+  "Unable to access my account."
+  
+  
+      ],
+        "responses" : [
+          "I'm sorry to hear that you're having trouble logging in. Please provide me with your username or email so I can assist you further."
+        ]
+      },
+       {
+      "tag" : "reset",
+      "patterns" :[
+        "How can I reset my password?",
+  "I forgot my password. What should I do?",
+  "Can you help me with resetting my password?",
+  "I need to change my password. How do I do that?",
+  "What's the process for resetting my password?"
+  
+  
+      ],
+        "responses" : [
+         "If you need to reset your password, you can do so by clicking on the 'Forgot Password' link on the login page. An email with instructions will be sent to your registered email address."
+        ]
+      },
+      {
+      "tag" : "support",
+      "patterns" :[
+        "I need assistance with a technical issue.",
+  "Having trouble with a technical problem. Can you help?",
+  "Encountering technical difficulties. Need support.",
+  "Can't figure out a technical issue. Need assistance.",
+  "Experiencing a technical problem. What should I do?"
+  
+  
+      ],
+        "responses" : [
+        "I'm here to help! Please describe the technical issue you're experiencing in detail, and I'll do my best to provide you with a solution or further assistance."
+        ]
+      },
+      {
+      "tag" : "Name",
+      "patterns" :[
+        "What's your name?",
+  "May I know your name?",
+  "Could you tell me your name?",
+  "What do you call yourself?",
+  "What name do you go by?",
+        "What is your name?",
+  "May I know your name?",
+  "Could you tell me your name?",
+  "What do you call yourself?",
+  "What name do you go by?",
+  "Who are you?",
+  "What should I call you?",
+  "Do you have a name?",
+  "Tell me about yourself.",
+  "Introduce yourself."
+  
+  
+      ],
+        "responses" : [
+          "You can call me Mirai.",
+  "I go by the name Mirai.",
+  "I'm known as Mirai.",
+  "Mirai is what I'm called.",
+  "My name, as you might have guessed, is Mirai.",
+  "The name I respond to is Mirai.",
+  "Mirai is the name I've been given.",
+  "I'm referred to as Mirai."
+  
+        ]
+      },
+      {
+      "tag" : "food",
+      "patterns" :[
+  
+  "Does the package include meals?",
+  "Are meals provided with the package?",
+  "Is food part of the package?",
+  "Does the package cover food expenses?",
+  "Are there any meal inclusions in the package?",
+  "Will I be getting food as part of the package?",
+  "Do the packages come with food?",
+  "Are meals included in the package price?",
+        "is food priovde",
+        "food is include"
+  
+  
+      ],
+        "responses" : [
+          "Yes, some packages do include meals. You can find detailed information about meal inclusions by reading the specifics of each package.",
+  "Indeed, certain packages come with food provisions. To learn more about which packages offer meals, please refer to the detailed descriptions of individual packages.",
+  "Absolutely, food is included in select packages. For specifics on meal inclusions, I recommend reviewing the details provided for each package.",
+  "Yes, there are packages that provide meals as part of the package deal. To discover which packages offer food, take a look at the comprehensive descriptions for each package.",
+  "Certainly, food is part of the offerings in certain packages. To identify these packages and learn more about meal inclusions, please refer to the package details."
+  
+        ]
+      },
+      {
+      "tag" : "website",
+      "patterns" :[
+        "Can you provide information about your website?",
+  "What can you tell me about your website?",
+  "Could you describe your website to me?",
+  "Tell me more about your website.",
+  "I'd like to learn about your website, can you help?",
+  "What's there to know about your website?",
+  "Can you give me details about your website?",
+  "Could you explain what your website offers?",
+  "How would you describe your website?",
+  "I'm interested in your website, can you tell me about it?",
+        "website"
+  
+  
+      ],
+        "responses" : [
+        "Embark on your next adventure with confidence, as our comprehensive destination guides and booking platform streamline your journey from dream to reality. Whether you're seeking the sun-kissed shores of tropical paradises, the adrenaline rush of mountain treks, or the cultural immersion of bustling cities, we've got you covered. Browse through our curated selection of accommodations, flights, and activities, tailored to suit every traveler's taste and budget. With user-friendly search tools, secure payment options, and round-the-clock customer support, planning your perfect getaway has never been easier. Join our community of globetrotters, and let the world become your playground. Your next unforgettable experience awaits!"
+  
+        ]
+      },
+      {
+      "tag" : "DISCount",
+      "patterns" :[
+       "Are there any discounts available on your packages?",
+        "discounts",
+        "offers",
+        "current deals",
+        "save money",
+  "Do you offer any discounts or promotions on your packages?",
+  "Are discounts available for your packages?",
+  "Do your packages come with any special offers or discounts?",
+  "Are there any current deals or discounts on your packages?",
+  "Can I get a discount on your packages?",
+  "Do you have any promotional discounts for your packages?",
+  "Are there any ways to save money on your packages?",
+  "Do you provide discounts for bulk bookings or specific groups?",
+  "Are there any seasonal discounts or offers on your packages?"
+  
+  
+      ],
+        "responses" : [
+          "Yes, we occasionally offer discounts and promotions on our packages. To find out about current discounts, please visit our website or contact our customer support team for more information."
+  
+        ]
+      },
+  
+      {
+      "tag" : "Trip cancel ",
+      "patterns" :[
+        "trip cancel",
+        "refund",
+        "cancelling tour",
+        "cancellations",
+   "What happens if I need to cancel my trip in the middle of a tour?",
+  "What is your policy regarding cancellations during a tour?",
+  "If I cancel my trip midway through the tour, what are the procedures?",
+  "What is the cancellation policy if I decide to end my tour prematurely?",
+  "Can you explain the process for canceling a tour while it's still ongoing?",
+  "If I need to terminate my tour early, what are the steps for cancellation?",
+  "What happens if I have to cancel my trip unexpectedly during the tour?",
+  "Do you have specific rules for canceling a tour midway through?",
+  "Is there a procedure in place for cancelling my tour while I'm still traveling?",
+  "If I need to cancel my trip unexpectedly while on the tour, what should I do?"
+  
+  
+      ],
+        "responses" : [
+          "If you need to cancel your trip in the middle of a tour, please contact our customer support team immediately. Our cancellation policy may vary depending on the circumstances and the specific tour package you booked. We will do our best to assist you and provide information on any applicable fees or refund options available."
+  
+        ]
+      },
+      {
+      "tag" : "Medical support",
+      "patterns" :[
+       "Do you offer any medical support services?",
+  "Is there any medical assistance provided?",
+  "Do you have medical support available?",
+  "Are there medical services included?",
+  "Do you provide any healthcare services?",
+  "Is there medical assistance on hand?",
+  "Are medical facilities available during the trip?",
+  "Do you offer medical aid?",
+  "Are there any provisions for medical emergencies?",
+  "Is there a doctor or medical professional on site?"
+  
+      ],
+        "responses" : [
+         "Yes, we prioritize the safety and well-being of our travelers. We provide access to medical support services during our trips to ensure your peace of mind and safety.",
+  "Absolutely, we offer medical assistance as part of our commitment to ensuring a safe and enjoyable travel experience for our customers.",
+  "We understand the importance of medical support while traveling. That's why we have medical services available to address any health-related concerns during your trip.",
+  "Your health and safety are paramount to us. Rest assured, we have medical support provisions in place to assist you in case of any emergencies during your journey.",
+  "Yes, we have medical aid readily available to attend to any health-related needs that may arise during your travel with us.",
+  "You can travel with confidence knowing that we provide access to medical assistance throughout your trip, ensuring your well-being every step of the way.",
+  "Absolutely, our trips include access to medical facilities and assistance to address any unforeseen health issues during your journey.",
+  "Rest assured, we offer medical support to our travelers to ensure that any medical emergencies or concerns are promptly addressed and managed.",
+  "Yes, we have provisions in place for medical emergencies, and our team is trained to provide necessary assistance and support during such situations.",
+  "Your safety is our top priority. We have qualified medical professionals or access to medical services available to assist you with any health-related needs during your trip."
+  
+        ]
+      },
+      {
+      "tag" : "package suggest",
+      "patterns" :[
+  "suggest me some best tour packages which you would prefer me.",
+        "Recommend me some best tour packages which you would prefer me",
+        "recommend me tour package",
+        "suggest me tour package",
+        "good tour package",
+        "best tour package"
+  
+  
+      ],
+        "responses" : [
+        "According to me the best tour package and most visited tour package are Kasmir tour, Manali tour, Ladak tour, Rajasthan tour, and many more awesome tour package are there which you can search for our best tour packages page"
+        ]
+      }
+  
+  
+  
+  
+  
+  
+  
+    ]
+  }
